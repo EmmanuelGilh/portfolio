@@ -1,14 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
-import Intro from './Components/Intro/Intro';
-import Contact from './Components/Contact/Contact';
+import Landing from './Components/Landing/Landing';
+import Navbar from './Components/Navbar/Navbar';
+import Portfolio from './Components/Portfolio/Portfolio'
+import { Route, Routes } from "react-router-dom";
+
 
 
 function App() {
   return (
     <div className="App">
-      <Intro />
-      <Contact />
+      <Navbar />
+
+      <Routes>
+        <Route exact path="/" element={<Landing />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+
+      </Routes>
+
     </div>
   );
 }

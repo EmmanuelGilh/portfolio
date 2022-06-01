@@ -2,6 +2,7 @@ import React from 'react'
 import './Intro.css'
 import me from '../../Media/Gilh.JPG'
 
+
 function Intro() {
     return (
         <div className='i'>
@@ -15,7 +16,8 @@ function Intro() {
                         </div>
                     </div>
                     <div className="i_description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quas quos, quod porro aperiam expedita itaque minima laudantium placeat corrupti fugiat voluptate nihil dicta, quibusdam pariatur inventore quo aliquid impedit.
+                        Soy una persona apasionada y con ganas de superarme en una empresa que me permita aprender, generar experiencia y crecer al mismo tiempo. Persiguiendo lo
+                        anterior, decidí entrar al interminable mundo de la programación, el cual me ha permitido conocer y aplicar nuevas tecnologías en mis proyectos.
                     </div>
                 </div>
             </div>

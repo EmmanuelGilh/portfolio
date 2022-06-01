@@ -26,7 +26,9 @@ const Contact = () => {
                 <div className="c_info">
                     <div className="c_info_item">
                         <img src={linked} alt="whats" className="c_icon" />
-                        https://www.linkedin.com/in/emmanuelgilh/
+                        <a href='https://www.linkedin.com/in/emmanuelgilh/'>
+                            https://www.linkedin.com/in/emmanuelgilh/
+                        </a>
                     </div>
                 </div>
                 <div className="c_info">
