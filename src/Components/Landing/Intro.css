@@ -43,6 +43,8 @@
     font-size: 30px;
     font-weight: bold;
     color: aqua;
+    border-bottom: 2px solid grey;
+    width: 70%;
 }
 
 .i_bg {
@@ -62,4 +64,10 @@
     height: 100%;
     object-fit: contain;
     position: absolute;
+}
+
+.i_description {
+    padding: .7cm;
+    padding-left: 0cm;
+    width: 73%;
 }
