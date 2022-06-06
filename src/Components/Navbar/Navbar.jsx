@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
+
 const Navbar = () => {
     const navigate = useNavigate()
 
@@ -12,7 +13,10 @@ const Navbar = () => {
             <a className='tags' onClick={() => navigate('/')}>
                 Home
             </a >
-            <a className='tags' href='../CV/EmmanuelGilEsp.pdf' download='CV-EmmanuelGil' >
+            <a className='tags'
+                href='../../Media/EmmanuelEsp.pdf'
+                download='CV-EmmanuelGil'
+            >
                 CV
             </a>
             <a className='tags' onClick={() => navigate('/portfolio')}>

@@ -1,4 +1,4 @@
-/* .i {
+.i {
     display: flex;
     height: 100vh;
 }
@@ -20,6 +20,7 @@
     height: 50%;
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
 }
 
 .i_hola {
@@ -41,14 +42,14 @@
     height: 50px;
     font-size: 30px;
     font-weight: bold;
-    color: aqua;
+    color: #04589F;
     border-bottom: 2px solid grey;
     width: 70%;
 }
 
 .i_bg {
     clip-path: inset(0 0 0 17.9%);
-    background-color: aquamarine;
+    background: url(../../Media/Galaxy.jpg);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -69,4 +70,42 @@
     padding: .7cm;
     padding-left: 0cm;
     width: 73%;
+}
+
+.c {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* .c_left {
+    align-items: center;
 } */
+
+.c_img {}
+
+.c_right {
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px
+}
+
+.c_title {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.c_info_item {
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+    font-weight: bold;
+}
+
+.c_icon {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+}
