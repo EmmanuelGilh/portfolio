@@ -36,7 +36,7 @@ const Landing = () => {
                 </div>
             </div>
             <br />
-            <Divider variant="middle" />
+            <Divider variant="middle" className='divider' />
             <br />
 
             <div className='c'>
@@ -46,7 +46,7 @@ const Landing = () => {
                 {/* </div> */}
             </div>
             <br />
-            <Divider variant="middle" />
+            <Divider variant="middle" className='divider' />
             <br />
             <div className='c_right'>
                 <h1 className='c_title'> Contact me </h1>
@@ -71,8 +71,6 @@ const Landing = () => {
                 </div>
             </div>
         </div>
-        // </div>
-        // </div>
     )
 }
 

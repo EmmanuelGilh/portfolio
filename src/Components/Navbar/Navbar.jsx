@@ -1,6 +1,7 @@
 import React from 'react'
 import './Navbar.css'
 import { useNavigate } from 'react-router-dom';
+import Curriculum from '../../Media/EmmanuelEsp.pdf'
 
 
 
@@ -14,8 +15,8 @@ const Navbar = () => {
                 Home
             </a >
             <a className='tags'
-                href='../../Media/EmmanuelEsp.pdf'
-                download='CV-EmmanuelGil'
+                href={Curriculum}
+            // download='CV-EmmanuelGil'
             >
                 CV
             </a>
