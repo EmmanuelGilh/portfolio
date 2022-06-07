@@ -12,6 +12,8 @@
     left: 0;
     background-image: url(../../Media/Galaxy.jpg);
     background-size: cover;
+    /* background: rgb(2, 0, 11);
+    background: linear-gradient(94deg, rgba(2, 0, 11, 1) 0%, rgba(3, 42, 179, 1) 100%); */
 }
 
 
@@ -87,7 +89,7 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
-    position: absolute;
+    position: relative;
 }
 
 .i_description {
