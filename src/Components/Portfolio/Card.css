@@ -1,0 +1,57 @@
+.containerCard {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+@media (min-width:50em) {
+    .wrapperPort {
+        padding: 15px;
+        padding-top: 13rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        gap: 3rem;
+    }
+}
+
+.cards {
+    position: relative;
+    border: 3px solid rgb(245, 234, 234);
+
+}
+
+.cards:hover button {
+    opacity: 1;
+    transition: 500ms;
+}
+
+.imgCard {
+    height: 100%;
+    width: 100%;
+}
+
+.imgCard:hover {
+    opacity: .6;
+}
+
+.cards button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(88, 88, 88, 0.801);
+    border: 3px solid rgb(121, 121, 121);
+    padding: 10px 20px;
+    color: rgb(255, 250, 250);
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.cards button:hover {
+    background: #fff;
+    color: black;
+}

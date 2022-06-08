@@ -16,6 +16,7 @@ const Navbar = () => {
             </a >
             <a className='tags'
                 href={Curriculum}
+                target='_blank'
             // download='CV-EmmanuelGil'
             >
                 CV

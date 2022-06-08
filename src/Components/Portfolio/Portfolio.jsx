@@ -7,7 +7,6 @@ const Portfolio = () => {
 
     return (
         <div className='port'>
-            <h1 className='titlePort'> Portfolio comming soon... </h1>
             <div className="proj">
                 <Card />
             </div>
