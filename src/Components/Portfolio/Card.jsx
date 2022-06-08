@@ -1,7 +1,7 @@
 import React from 'react'
 import poke from '../../Media/poke.JPG'
 import mobi from '../../Media/mobi.JPG'
-import piedra from '../../Media/piedra.JPG'
+import Bblogo from '../../Media/Bblogo.png'
 import './Card.css'
 import { useNavigate } from 'react-router-dom';
 
@@ -30,8 +30,10 @@ const Card = () => {
                 </div>
 
                 <div className='cards'>
-                    <img src={piedra} alt='Piedra, papel o tijera' className='imgCard' />
-                    <button>Piedra, papel o tijera</button>
+                    <img src={Bblogo} alt='breakingbad' className='imgCard' />
+                    <a href='https://quotes-breakingbad-gilh.netlify.app' target='_blank'>
+                        <button>Breaking Bad Quotes</button>
+                    </a>
                 </div>
 
             </div>
