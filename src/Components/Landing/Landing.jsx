@@ -6,18 +6,18 @@ import mail from '../../Media/mail.png'
 import linked from '../../Media/linked.png'
 import whats from '../../Media/whats.png'
 import Divider from '@mui/material/Divider';
-import Contact from './Contact';
-import Intro from './Intro';
 
 
 
-const Landing = () => {
+
+const Landing = ({ contacto }) => {
     return (
         <div className='landingP'>
+
             <div className='i'>
                 <div className='i_left'>
                     <div className='ileft_wrapper'>
-                        <h2 className='i_hola'>Hola, mi nombre es</h2>
+                        <h2 className='i_hola'>Hi there, my name is</h2>
                         <h1 className='i_name'>Emmanuel Gil</h1>
                         <div className="i_title">
                             <div className="ititle_wrapper">
@@ -25,8 +25,7 @@ const Landing = () => {
                             </div>
                         </div>
                         <div className="i_description">
-                            Soy una persona apasionada y con ganas de superarme en una empresa que me permita aprender, generar experiencia y crecer al mismo tiempo. Persiguiendo lo
-                            anterior, decidí entrar al interminable mundo de la programación, el cual me ha permitido conocer y aplicar nuevas tecnologías en mis proyectos.
+                            I'm an passionate and motivated indivial, seeking to improve my skills and learn a new one on every chance. My objective is to be better than the day before, to be able to compete in this non-stopping world.
                         </div>
                     </div>
                 </div>
@@ -36,7 +35,8 @@ const Landing = () => {
                 </div>
             </div>
             <br />
-            <Divider variant="middle" className='divider' />
+            {/* <Divider variant="middle" className='divider' /> */}
+            <hr />
             <br />
 
             <div className='c'>
@@ -46,9 +46,10 @@ const Landing = () => {
                 {/* </div> */}
             </div>
             <br />
-            <Divider variant="middle" className='divider' />
+            {/* <Divider variant="middle" className='divider' /> */}
+            <hr />
             <br />
-            <div className='c_right'>
+            <div className='c_right' ref={contacto}>
                 <h1 className='c_title'> Contact me </h1>
                 <div className="c_info">
                     <div className="c_info_item">

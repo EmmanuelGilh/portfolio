@@ -1,0 +1,17 @@
+.loader {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    transition: all 2s 1s;
+    transition-property: all;
+}
+
+.animate__animated.animate__bounce {
+    --animate-duration: 1s;
+    --animate-delay: 0.9s;
+}
+
+/* filter: brightness(150%) */
