@@ -6,8 +6,18 @@ import Curriculum from '../../Media/EmmanuelEsp.pdf'
 
 
 
-const Navbar = () => {
+const Navbar = ({ contacto }) => {
     const navigate = useNavigate()
+
+
+    const scrollToSection = (eRef) => {
+        window.scrollTo({
+            top: eRef.current.offsetTop,
+            behavior: 'smooth'
+        })
+        console.log(eRef)
+    }
+
 
     return (
         <div className='navbar'>
@@ -21,12 +31,12 @@ const Navbar = () => {
             >
                 CV
             </a>
+            <a className='tags' onClick={() => scrollToSection(contacto)}>
+                Contact
+            </a>
             <a className='tags' onClick={() => navigate('/portfolio')}>
                 Portfolio
             </a>
-            {/* <a className='tags'>
-                Contact
-            </a> */}
         </div>
     )
 }
